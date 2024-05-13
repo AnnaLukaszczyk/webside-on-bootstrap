@@ -12,14 +12,21 @@ body {
 .navbar {
   text-transform: uppercase;
 }
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #ffffff;
+}
+.navbar .navbar-toggler {
+  padding: 10px 15px;
+}
 .navbar .nav-link,
 .navbar .navbar-nav .nav-link.show,
-.navbar .navbar-brand,
 .navbar .fa-bars {
   color: #ffffff;
 }
 .navbar .navbar-nav .nav-link.active,
 .navbar .nav-link:focus,
-.navbar .nav-link:hover {
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
   color: #039dff;
 }/*# sourceMappingURL=style.css.map */

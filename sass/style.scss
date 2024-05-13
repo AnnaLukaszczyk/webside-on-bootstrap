@@ -1,4 +1,4 @@
-@use './colors' as *;
+@use "./colors" as *;
 
 * {
 	box-sizing: border-box;
@@ -14,16 +14,25 @@ body {
 .navbar {
 	text-transform: uppercase;
 
+	.navbar-brand {
+		font-weight: bold;
+        color: $white;
+	}
+
+	.navbar-toggler {
+		padding: 10px 15px;
+	}
+
 	.nav-link,
 	.navbar-nav .nav-link.show,
-	.navbar-brand,
 	.fa-bars {
 		color: $white;
 	}
 
 	.navbar-nav .nav-link.active,
 	.nav-link:focus,
-	.nav-link:hover {
+	.nav-link:hover,
+    .navbar-brand:hover {
 		color: $main-color;
 	}
 }
