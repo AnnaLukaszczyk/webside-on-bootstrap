@@ -13,8 +13,13 @@ body {
   text-transform: uppercase;
 }
 .navbar .nav-link,
-.navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
-.navbar .navbar-brand {
+.navbar .navbar-brand,
+.navbar .fa-bars {
   color: #fff;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+  color: #039dff;
 }/*# sourceMappingURL=style.css.map */
