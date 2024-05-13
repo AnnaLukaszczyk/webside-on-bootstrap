@@ -1,3 +1,5 @@
+@use './colors' as *;
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -16,12 +18,12 @@ body {
 	.navbar-nav .nav-link.show,
 	.navbar-brand,
 	.fa-bars {
-		color: #fff;
+		color: $white;
 	}
 
 	.navbar-nav .nav-link.active,
 	.nav-link:focus,
 	.nav-link:hover {
-		color: #039dff;
+		color: $main-color;
 	}
 }
