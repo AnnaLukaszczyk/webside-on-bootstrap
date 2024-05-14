@@ -13,10 +13,15 @@ body {
 
 .navbar {
 	text-transform: uppercase;
+	z-index: 3;
 
 	.navbar-brand {
 		font-weight: bold;
-        color: $white;
+		color: $white;
+	}
+
+	.navbar-brand-color {
+		color: $main-color;
 	}
 
 	.navbar-toggler {
@@ -32,7 +37,44 @@ body {
 	.navbar-nav .nav-link.active,
 	.nav-link:focus,
 	.nav-link:hover,
-    .navbar-brand:hover {
+	.navbar-brand:hover {
 		color: $main-color;
+	}
+}
+
+.header-image {
+	position: relative;
+	height: 100vh;
+	background-image: url("../img/header-photo-small.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: $white;
+	z-index: 0;
+
+	.header-image-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.title {
+		text-transform: uppercase;
+	}
+
+	.header-color-text {
+		color: $main-color;
+	}
+
+	.header-image-shadow {
+		position: absolute;
+		top: 0px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: -1;
 	}
 }
