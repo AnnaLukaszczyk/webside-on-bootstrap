@@ -9,33 +9,33 @@ body {
   background-color: #333;
 }
 
-.navbar {
+nav {
   text-transform: uppercase;
   z-index: 3;
 }
-.navbar .navbar-brand {
+nav .navbar-brand {
   font-weight: bold;
   color: #ffffff;
 }
-.navbar .navbar-brand-color {
+nav .navbar-brand-color {
   color: #039dff;
 }
-.navbar .navbar-toggler {
+nav .navbar-toggler {
   padding: 10px 15px;
 }
-.navbar .nav-link,
-.navbar .navbar-nav .nav-link.show,
-.navbar .fa-bars {
+nav .nav-link,
+nav .navbar-nav .nav-link.show,
+nav .fa-bars {
   color: #ffffff;
 }
-.navbar .navbar-nav .nav-link.active,
-.navbar .nav-link:focus,
-.navbar .nav-link:hover,
-.navbar .navbar-brand:hover {
+nav .navbar-nav .nav-link.active,
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .navbar-brand:hover {
   color: #039dff;
 }
 
-.header-image {
+header {
   position: relative;
   height: 100vh;
   background-image: url("../img/header-photo-small.jpg");
@@ -45,20 +45,20 @@ body {
   color: #ffffff;
   z-index: 0;
 }
-.header-image .header-image-text {
+header .image-text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100%;
 }
-.header-image .title {
+header .title {
   text-transform: uppercase;
 }
-.header-image .header-color-text {
+header .color-text {
   color: #039dff;
 }
-.header-image .header-image-shadow {
+header .image-shadow {
   position: absolute;
   top: 0px;
   left: 0;
@@ -66,4 +66,10 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: -1;
+}
+
+@media (min-width: 1200px) {
+  .header-image {
+    background-image: url("../img/header-photo-big.jpg");
+  }
 }/*# sourceMappingURL=style.css.map */

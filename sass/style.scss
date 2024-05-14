@@ -11,7 +11,7 @@ body {
 	background-color: #333;
 }
 
-.navbar {
+nav {
 	text-transform: uppercase;
 	z-index: 3;
 
@@ -42,7 +42,7 @@ body {
 	}
 }
 
-.header-image {
+header {
 	position: relative;
 	height: 100vh;
 	background-image: url("../img/header-photo-small.jpg");
@@ -52,7 +52,7 @@ body {
 	color: $white;
 	z-index: 0;
 
-	.header-image-text {
+	.image-text {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -64,11 +64,11 @@ body {
 		text-transform: uppercase;
 	}
 
-	.header-color-text {
+	.color-text {
 		color: $main-color;
 	}
 
-	.header-image-shadow {
+	.image-shadow {
 		position: absolute;
 		top: 0px;
 		left: 0;
@@ -77,4 +77,9 @@ body {
 		background-color: rgba(0, 0, 0, 0.8);
 		z-index: -1;
 	}
+}
+
+@media (min-width: 1200px) {
+	.header-image {
+		background-image: url("../img/header-photo-big.jpg");}
 }
