@@ -13,7 +13,7 @@ body {
 
 nav {
 	text-transform: uppercase;
-	transition: background-color .6s;
+	transition: background-color 0.6s;
 	z-index: 3;
 
 	.navbar-brand {
@@ -41,6 +41,22 @@ nav {
 	.navbar-brand:hover {
 		color: $main-color;
 	}
+}
+
+.navigation-background {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.underline {
+	margin: 0 auto 40px;
+	height: 4px;
+	width: 60px;
+	background-color: $main-color;
 }
 
 header {
@@ -94,8 +110,19 @@ header {
 	}
 }
 
-.navigation-background {
-	background-color: rgba(0, 0, 0, .8);
+.aboutus {
+	.fa-solid {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.aboutus-card-text {
+		font-size: 14px;
+	}
 }
 
 @media (min-width: 768px) {

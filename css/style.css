@@ -36,6 +36,22 @@ nav .navbar-brand:hover {
   color: #039dff;
 }
 
+.navigation-background {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  margin: 0 auto 40px;
+  height: 4px;
+  width: 60px;
+  background-color: #039dff;
+}
+
 header {
   position: relative;
   height: 100vh;
@@ -81,8 +97,16 @@ header .fa-solid {
   color: #ffffff;
 }
 
-.navigation-background {
-  background-color: rgba(0, 0, 0, 0.8);
+.aboutus .fa-solid {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.aboutus .aboutus-card-text {
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
