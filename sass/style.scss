@@ -13,6 +13,7 @@ body {
 
 nav {
 	text-transform: uppercase;
+	transition: background-color .6s;
 	z-index: 3;
 
 	.navbar-brand {
@@ -93,12 +94,16 @@ header {
 	}
 }
 
+.navigation-background {
+	background-color: rgba(0, 0, 0, .8);
+}
+
 @media (min-width: 768px) {
 	.image-text {
 		.title {
 			font-size: 42px;
 		}
-		
+
 		p {
 			font-size: 20px;
 		}

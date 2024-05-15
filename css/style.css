@@ -11,6 +11,7 @@ body {
 
 nav {
   text-transform: uppercase;
+  transition: background-color 0.6s;
   z-index: 3;
 }
 nav .navbar-brand {
@@ -78,6 +79,10 @@ header .fa-solid {
   transform: translateX(-50%);
   font-size: 34px;
   color: #ffffff;
+}
+
+.navigation-background {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 @media (min-width: 768px) {
