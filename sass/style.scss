@@ -93,7 +93,20 @@ header {
 	}
 }
 
+@media (min-width: 768px) {
+	.image-text {
+		.title {
+			font-size: 42px;
+		}
+		
+		p {
+			font-size: 20px;
+		}
+	}
+}
+
 @media (min-width: 1200px) {
 	.header-image {
-		background-image: url("../img/header-photo-big.jpg");}
+		background-image: url("../img/header-photo-big.jpg");
+	}
 }
