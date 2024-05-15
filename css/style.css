@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 74px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #333;
@@ -97,6 +101,12 @@ header .fa-solid {
   color: #ffffff;
 }
 
+.aboutus .aboutus-card {
+  transition: color 0.5s;
+}
+.aboutus .aboutus-card:hover {
+  color: #039dff;
+}
 .aboutus .fa-solid {
   margin-top: 20px;
   font-size: 30px;
@@ -115,6 +125,11 @@ header .fa-solid {
   }
   .image-text p {
     font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 72px;
   }
 }
 @media (min-width: 1200px) {
