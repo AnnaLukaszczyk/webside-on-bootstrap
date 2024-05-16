@@ -116,7 +116,7 @@ header {
 
 .aboutus {
 	.aboutus-card {
-		transition: color .5s;
+		transition: color 0.5s;
 	}
 
 	.aboutus-card:hover {
@@ -137,6 +137,37 @@ header {
 	}
 }
 
+.aboutus-hero {
+	position: relative;
+	background-image: url("../img/technology-small.jpg");
+	background-size: cover;
+	background-position: center;
+	color: $light-gray;
+	z-index: 0;
+
+	.aboutus-shadow {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: -5;
+	}
+
+	.aboutus-hero-item {
+		margin: 10px 0;
+
+		.fa-brands {
+			font-size: 36px;
+		}
+
+		.aboutus-hero-title {
+			font-size: 24px;
+		}
+	}
+}
+
 @media (min-width: 768px) {
 	.image-text {
 		.title {
@@ -152,6 +183,10 @@ header {
 @media (min-width: 992px) {
 	html {
 		scroll-padding-top: 72px;
+	}
+
+	.aboutus-hero {
+		background-image: url("../img/technology-big.jpg");
 	}
 }
 
