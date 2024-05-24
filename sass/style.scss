@@ -280,6 +280,26 @@ header {
 	}
 }
 
+.achievements-list {
+	padding: 20px 0;
+
+	i {
+		padding: 10px;
+		font-size: 48px;
+		color: $white;
+		text-shadow: 0 0 5px black;
+	}
+
+	.achievement-number {
+		font-size: 22px;
+	}
+
+	.achievement-text {
+		font-size: 13px;
+		text-transform: uppercase;
+	}
+}
+
 @media (min-width: 768px) {
 	.image-text {
 		.title {
