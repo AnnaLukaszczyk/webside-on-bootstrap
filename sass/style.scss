@@ -232,6 +232,54 @@ header {
 	}
 }
 
+.team {
+	position: relative;
+	background-image: url("../img/room.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
+
+	.section-title {
+		color: $light-gray;
+	}
+
+	.team-shadow {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: -5;
+	}
+
+	.card {
+		transition: scale 0.3s;
+		img {
+			height: 200px;
+			object-fit: cover;
+		}
+	}
+
+	.card:hover {
+		scale: 0.95;
+	}
+
+	.card-body {
+		height: 160px;
+	}
+
+	.card-title {
+		margin-bottom: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.card-text {
+		font-size: 14px;
+	}
+}
+
 @media (min-width: 768px) {
 	.image-text {
 		.title {
