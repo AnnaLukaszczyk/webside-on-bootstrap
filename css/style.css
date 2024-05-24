@@ -161,6 +161,39 @@ header .fa-solid {
 
 .prices .price-box {
   margin: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 6px gray;
+  transition: scale 0.3s;
+}
+.prices .price-box span {
+  font-weight: bold;
+}
+.prices .price-box i {
+  padding: 0 5px;
+  font-size: 20px;
+}
+.prices .price-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.prices .price-box:hover {
+  scale: 1.05;
+}
+.prices .price-title {
+  text-transform: uppercase;
+  color: #039dff;
+  font-size: 20px;
+}
+.prices .price-tag {
+  font-size: 24px;
+  font-weight: bold;
+}
+.prices .price-info {
+  margin-top: 30px;
+}
+.prices .price-info a {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

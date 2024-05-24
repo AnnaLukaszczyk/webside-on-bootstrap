@@ -188,6 +188,47 @@ header {
 .prices {
 	.price-box {
 		margin: 20px;
+		padding: 30px;
+		background-color: $white;
+		box-shadow: 2px 2px 6px gray;
+		transition: scale 0.3s;
+
+		span {
+			font-weight: bold;
+		}
+
+		i {
+			padding: 0 5px;
+			font-size: 20px;
+		}
+
+		button {
+			padding: 10px 20px;
+			text-transform: uppercase;
+		}
+	}
+
+	.price-box:hover {
+		scale: 1.05;
+	}
+
+	.price-title {
+		text-transform: uppercase;
+		color: $main-color;
+		font-size: 20px;
+	}
+
+	.price-tag {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	.price-info {
+		margin-top: 30px;
+
+		a {
+			text-decoration: none;
+		}
 	}
 }
 
