@@ -255,6 +255,49 @@ header .fa-solid {
   text-transform: uppercase;
 }
 
+.contact {
+  position: relative;
+  background-image: url("../img/skyline-small.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #dddddd;
+  z-index: 0;
+}
+.contact h3 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.contact .social-media {
+  font-size: 26px;
+}
+.contact .social-media a {
+  padding: 10px;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+.contact .social-media a:hover {
+  color: #039dff;
+}
+.contact .contact-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 9, 27, 0.85);
+  z-index: -5;
+}
+.contact .contact-us {
+  display: flex;
+  align-items: center;
+}
+.contact .contact-item {
+  margin: 20px 0;
+}
+
 @media (min-width: 768px) {
   .image-text .title {
     font-size: 42px;
@@ -269,6 +312,9 @@ header .fa-solid {
   }
   .aboutus-hero {
     background-image: url("../img/technology-big.jpg");
+  }
+  .contact {
+    background-image: url("../img/skyline-big.jpg");
   }
 }
 @media (min-width: 1200px) {
