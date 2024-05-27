@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/7877a19f95.js" crossorigin="anonymous"></script>
 </head>
@@ -40,10 +41,10 @@
     </nav>
     <header class="image" id="home">
         <div class="image-text text-center p-2">
-            <h1 class="title">witajcie w pro<span class="color-text">gamers</span></h1>
-            <p>W miejscu, gdzie gry tworzymy z pasją</p>
-            <a href="#aboutus" class="btn btn-outline-light">Poznaj nas</a>
-            <a href="#aboutus"><i class="fa-solid fa-chevron-down"></i></a>
+            <h1 class="title" data-aos="fade-up" data-aos-delay="200">witajcie w pro<span class="color-text">gamers</span></h1>
+            <p data-aos="fade-up" data-aos-delay="400">W miejscu, gdzie gry tworzymy z pasją</p>
+            <a href="#aboutus" class="btn btn-outline-light" data-aos="fade-up" data-aos-delay="600">Poznaj nas</a>
+            <a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
         </div>
         <div class="image-shadow"></div>
     </header>
@@ -92,17 +93,17 @@
                 <h2 class="section-title">tworzymy gry na platformy</h2>
                 <div class="underline"></div>
                 <div class="row">
-                    <div class="col-lg-4 text-center aboutus-hero-item">
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="100">
                         <p class="aboutus-hero-title mb-1">PC</p>
                         <p><i class="fa-brands fa-steam"></i></p>
                         <p class="aboutus-hero-text">Graj ze znajomymi na swoim blaszaku!</p>
                     </div>
-                    <div class="col-lg-4 text-center aboutus-hero-item">
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="200">
                         <p class="aboutus-hero-title mb-1">PlayStation</p>
                         <p><i class="fa-brands fa-playstation"></i></p>
                         <p class="aboutus-hero-text">Gry świetnie prezentują się na konsoli od Sony!</p>
                     </div>
-                    <div class="col-lg-4 text-center aboutus-hero-item">
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="300">
                         <p class="aboutus-hero-title mb-1">Xbox</p>
                         <p><i class="fa-brands fa-xbox"></i></p>
                         <p class="aboutus-hero-text">Fani Xboxa spędzą z nami mnóstwo godzin!</p>
@@ -373,6 +374,8 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/slick.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/aos.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
